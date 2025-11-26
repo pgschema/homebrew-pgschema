@@ -7,7 +7,7 @@ class Pgschema < Formula
   license "Apache-2.0"
 
   def install
-    bin.install "pgschema-1.4.3-darwin-arm64" => "pgschema"
+    bin.install "pgschema-#{version}-darwin-arm64" => "pgschema"
   end
 
   test do
